@@ -67,6 +67,7 @@ header {
     font-family: Roboto;
     font-size: 24px;
     font-weight: 900;
+    margin: 24px 0;
 }
 
 .first {
@@ -93,7 +94,7 @@ h1 {
 }
 
 .box {
-    border: 1px solid #6a6a6db3;
+    border: 0;
     margin-left: 30px;
     flex: 1;
     background-color: #6a6a6db3;
@@ -124,4 +125,105 @@ button {
 .singf {
     border: 0;
     color: #F9FAF8;
+}
+
+
+h2 {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.empty {
+    width: 170px;
+    height: 170px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+    margin-bottom: 8px;
+}
+
+.four {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+article {
+    padding: 50px 300px;
+}
+
+.kub {
+    width: 170px;
+    text-wrap: pretty;
+    text-align: center;
+    margin: 25px;
+    color: #6a6a6db3;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    padding: 130px 300px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.thin {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+h3 {
+    margin: 0;
+}
+
+blockquote {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 36px;
+    flex-shrink: 1;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.thierd {
+     display: flex;
+     margin: 80px 200px;
+     justify-content: space-between;
+     background-color: #3882F6;
+     padding: 50px 100px;
+     border-radius: 8px;
+     color: #F9FAF8;
+}
+
+
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.foot {
+    margin: 30px;
+}
+
+p {
+    margin: 0;
+}
+
+.tn {
+    font-weight: 300;
+}
+
+.whiteb {
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
 }
